@@ -210,4 +210,6 @@ class Simulation:
         for index, text in enumerate(stats_texts):
             x_position = spacing * (index + 1) - (text.get_width() / 2)
             self.screen.blit(text, (x_position, text_height))  
-                   
+
+
+    
